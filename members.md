@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Member
+title: Members
 permalink: /members/
 ---
 
