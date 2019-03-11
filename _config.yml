@@ -27,6 +27,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  members:
+          people: true
+
 sass:
   sass_dir: css
   # Exclude from processing.
