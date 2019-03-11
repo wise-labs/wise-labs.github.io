@@ -10,4 +10,4 @@ permalink: /members/
 
 Turgay Celik             |  David Torpey
 :-------------------------:|:-------------------------:
-![](/assets/turgay.png)  |  ![](/assets/david.png)
+![](/assets/turgay_new.png)  |  ![](/assets/david_new.png)
