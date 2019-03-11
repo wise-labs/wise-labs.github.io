@@ -8,4 +8,4 @@ permalink: /projects/
 Latest research at the WISE Lab.
 </p>
 
-### Human Action Recognition
+### Human Action Recognition Using Local Two-Stream CNN Features With SVMs
