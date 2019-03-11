@@ -20,7 +20,7 @@ Machine Learning; Computer Vision; Deep Learning
         <div class="row">
             <div class="col-sm-12">
                 <a style="color:#000000" class="display-4 font-weight-bold" href="blog">
-                    Posts.
+                    News
                 </a>
                 <p class="lead font-weight-bold">
                 <span></span>
