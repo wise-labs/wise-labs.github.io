@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Research
+permalink: /research/
 ---
 
 <p>
-Latest research at the WISE Lab.
+Latest research from WISE Lab.
 </p>
 
 ### Human Action Recognition Using Local Two-Stream CNN Features With SVMs
