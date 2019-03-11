@@ -8,6 +8,6 @@ permalink: /members/
 ### David Torpey
 ### Ziyad Jappie
 
-Solarized dark             |  Solarized Ocean
+Turgay Celik             |  David Torpey
 :-------------------------:|:-------------------------:
-![](/assets/david.jpeg)  |  ![](/assets/turgay.jpeg)
+![](/assets/turgay.png)  |  ![](/assets/dabod.png)
