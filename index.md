@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-You can use the [editor on GitHub](https://github.com/wise-labs/wise-labs.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+layout: home
+---
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div class="container">
+<h1 class="display-2 font-weight-bold mt-5"><span class="font-weight-light">Hello, I'm</span> <span style="color:#2045d7">David Torpey</span></h1>
 
-### Markdown
+<p class="lead font-weight-normal">
+<span>
+Machine Learning Researcher, Software Developer and Computer Vision Enthusiast
+</span>
+</p>
+</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wise-labs/wise-labs.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div style="background-color:#ffffff" class="jumbotron jumbotron-fluid">
+    <div style="background-color:#ffffff" class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <a style="color:#000000" class="display-4 font-weight-bold" href="blog">
+                    Posts.
+                </a>
+                <p class="lead font-weight-bold">
+                <span></span>
+                </p>
+            </div>
+        </div>
+        <div class="card-columns">
+        {% for post in site.posts %}
+         <article>
+                <div style="margin-bottom:16px;padding:24px" class="card">
+                    <h2>
+                        <a style="color:#000000" href="{{ post.url }}">
+                            {{ post.title }}
+                        </a>
+                    </h2>
+                    <time class="time" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
+                    <p class="text">
+                        {{post.excerpt }}
+                    </p>
+                    {% if post.tags.size > 0 %}
+                    <p>
+                        <span>
+                         {% for tag in post.tags %}
+                            <span style="color:#ffffff;background-color:#000000" class="badge badge-secondary">
+                               {{tag}}
+                            </span>
+                            &nbsp;
+                        {% endfor %}
+                        </span>
+                    </p>
+                    {% endif %}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</div>
