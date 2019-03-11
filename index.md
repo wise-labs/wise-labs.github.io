@@ -6,11 +6,11 @@ layout: home
 ---
 
 <div class="container">
-<h1 class="display-2 font-weight-bold mt-5"><span class="font-weight-light">Hello, I'm</span> <span style="color:#2045d7">David Torpey</span></h1>
+<h1 class="display-2 font-weight-bold mt-5"><span style="color:#2045d7">WISE Lab</span></h1>
 
 <p class="lead font-weight-normal">
 <span>
-Machine Learning Researcher, Software Developer and Computer Vision Enthusiast
+Machine Learning; Computer Vision; Deep Learning
 </span>
 </p>
 </div>
