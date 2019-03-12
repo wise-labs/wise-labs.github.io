@@ -7,4 +7,4 @@ mathjax: true
 tags: [action recognition, deep learning, computer vision]
 ---
 
-This research focuses on introducting a novel approach to human action recognition.
+This research focuses on introducing a novel approach to human action recognition. The approach makes use of state-of-the-art two-stream convolutional neural networks and linear support vector machines.
