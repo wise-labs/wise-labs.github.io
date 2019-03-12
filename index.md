@@ -10,7 +10,7 @@ layout: home
 
 <p class="lead font-weight-normal">
 <span>
-Machine Learning; Computer Vision; Deep Learning
+Wits Intelligent Systems Experts (WISE) Lab is a research group focusing on machine learning, computer vision, and deep learning.
 </span>
 </p>
 </div>
